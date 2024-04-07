@@ -1,0 +1,56 @@
+.btnImage {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.rememberMeLabel{
+    margin-right: 10px;
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.btn {
+    width: 100%;
+}
+
+.textInput {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.passwordInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 15px;
+}
+
+.rememberMeSegment {
+    display: flex;
+    flex-direction: horizontal;
+}
+
+.forgotPasswordLabel {
+    text-align: right;
+}
+
+
+.autoLoginBtn{
+    margin-bottom: 10px;
+}
+
+.autoRia {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}

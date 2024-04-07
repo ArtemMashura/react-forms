@@ -1,0 +1,90 @@
+.main {
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background: rgb(80, 142, 235) ;
+    color: white;
+}
+
+.langGrid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 7px;
+    row-gap: 5px;
+}
+
+.langCircle{
+    box-sizing: content-box;
+    width: 40px;
+    padding-top: 2px;
+    padding-bottom: 8px;
+    height: 30px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid white;
+    font-weight: 350;
+    font-size: 21px;
+}
+
+.langCircleSelected{
+    box-sizing: content-box;
+    width: 40px;
+    padding-top: 2px;
+    padding-bottom: 8px;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    font-weight: 350;
+    font-size: 21px;
+    color: rgb(55, 177, 248);
+}
+
+.title {
+    font-size: 90px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.subtitle {
+    margin-top: -10px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.loginForm {
+    padding-top: 100px;
+    width: 450px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputField {
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 60px;
+    border-color: transparent;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.loginButton {
+    padding-top: 6px;
+    padding-bottom: 10px;
+    border-radius: 60px;
+    background-color: rgb(73, 212, 38);
+    color: white;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.passwordReset {
+    margin-top: 22px;
+    color: rgb(16, 0, 236);
+}
